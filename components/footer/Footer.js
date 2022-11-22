@@ -21,6 +21,11 @@ const Footer = () => {
                         <img src="/telegram.svg" alt="telegram_icon"/>
                     </Link>
                 </div>
+                <div className="h-8 w-8 relative">
+                    <Link href="https://github.com/codeoholic/howtonextjs.com" passHref target="_blank">
+                        <img src="/github.svg" alt="telegram_icon"/>
+                    </Link>
+                </div>
             </div>
             <div className="flex flex-col items-center justify-center mt-5">
                 <p className="text-xs text-slate-500">v{ version }</p>
