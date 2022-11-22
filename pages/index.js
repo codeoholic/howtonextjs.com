@@ -11,7 +11,7 @@ const Home = () => {
 				description="How to NextJS"
 			/>
 			<div className="container mx-auto py-5 px-5 md:px-0">
-				<div className="text-2xl text-zinc-700 font-semibold">Why you should learn NextJS?</div>
+				<div className="text-3xl text-zinc-700 font-semibold">Why you should learn NextJS?</div>
 				<div className="flex grid grid-col-1 md:grid-cols-3 gap-5 mt-5">
 					<div className="flex gap-2.5 flex-col">
 						<blockquote className="twitter-tweet" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">wow. <a href="https://t.co/KTdaRyDizp">https://t.co/KTdaRyDizp</a> using <a href="https://twitter.com/nextjs?ref_src=twsrc%5Etfw">@nextjs</a> <a href="https://t.co/mR3ns4Nvf2">pic.twitter.com/mR3ns4Nvf2</a></p>&mdash; Guillermo Rauch (@rauchg) <a href="https://twitter.com/rauchg/status/1594779272945627136?ref_src=twsrc%5Etfw">November 21, 2022</a></blockquote>
