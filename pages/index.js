@@ -18,7 +18,7 @@ const Home = () => {
 					<h1 className="text-3xl md:text-6xl text-indigo-50 font-semibold">How to NextJS</h1>
 				</div>
 				<div className="mt-2.5">
-					<h2 className="text-sm md:text-xl text-indigo-50">The simplest & most convient way to start your NextJS career.</h2>
+					<h2 className="text-sm md:text-xl text-indigo-50">Simply the most convient blog to start your NextJS career.</h2>
 				</div>
 			</div>
 			<div className="container mx-auto py-5 px-5 md:px-0">
