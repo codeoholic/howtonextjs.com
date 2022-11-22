@@ -2,6 +2,9 @@ import Link from "next/link"
 
 const { version } = require("../../package.json")
 
+// ICONSET USED
+// https://www.iconfinder.com/search/icons?family=unicons-line
+
 const Footer = () => {
 
     return (
