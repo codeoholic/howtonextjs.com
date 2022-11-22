@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Script from 'next/script'
 
 import Footer from "../components/footer"
@@ -13,13 +14,21 @@ const Home = () => {
 				description="Start your NextJS journey today for free."
 			/>
 			<Script src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" />
-			<div className="p-5 md:p-0 aspect-square md:h-screen bg-indigo-600 w-full items-center justify-center flex flex-col text-center">
+			<div className="p-5 md:p-0 h-screen bg-indigo-600 w-full items-center justify-center flex flex-col text-center">
 				<div className="">
 					<h1 className="text-3xl md:text-6xl text-indigo-50 font-semibold">How to NextJS</h1>
 				</div>
 				<div className="mt-2.5">
 					<h2 className="text-sm md:text-xl text-indigo-50">Simply the most convient blog to start your NextJS career.</h2>
 				</div>
+				<Link href="https://twitter.com/howtonextjs" passHref target="_blank">
+					<div className="rounded-full bg-violet-100 px-5 py-2.5 mt-5 flex gap-2.5 items-center">
+						<div className="h-4 w-4 relative">
+							<img src="/twitter.svg" alt="twitter_icon"/>
+						</div>
+						<p className="text-xs md:text-sm text-zinc-800">Have a question or a query? Ask me.</p>
+					</div>
+				</Link>
 			</div>
 			<div className="container mx-auto py-5 px-5 md:px-0">
 				<div className="text-lg md:text-3xl text-zinc-700 font-semibold">Why you should learn NextJS?</div>
