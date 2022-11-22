@@ -13,8 +13,17 @@ const Home = () => {
 				description="Start your NextJS journey today for free."
 			/>
 			<Script src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" />
+			<div className="p-5 md:p-0 aspect-square md:h-screen bg-indigo-600 w-full items-center justify-center flex flex-col text-center">
+				<div className="">
+					<h1 className="text-3xl md:text-6xl text-indigo-50 font-semibold">How to NextJS</h1>
+				</div>
+				<div className="mt-2.5">
+					<h2 className="text-sm md:text-xl text-indigo-50">The simplest & most convient way to start your NextJS career.</h2>
+				</div>
+			</div>
 			<div className="container mx-auto py-5 px-5 md:px-0">
-				<div className="text-3xl text-zinc-700 font-semibold">Why you should learn NextJS?</div>
+				<div className="text-lg md:text-3xl text-zinc-700 font-semibold">Why you should learn NextJS?</div>
+				<div className="text-sm md:text-xl text-zinc-600 mt-2.5">This is what twitter has to say about the companies using NextJS.</div>
 				<div className="flex grid grid-col-1 md:grid-cols-3 gap-5 mt-5">
 					<div className="flex gap-2.5 flex-col">
 						<blockquote className="twitter-tweet" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">wow. <a href="https://t.co/KTdaRyDizp">https://t.co/KTdaRyDizp</a> using <a href="https://twitter.com/nextjs?ref_src=twsrc%5Etfw">@nextjs</a> <a href="https://t.co/mR3ns4Nvf2">pic.twitter.com/mR3ns4Nvf2</a></p>&mdash; Guillermo Rauch (@rauchg) <a href="https://twitter.com/rauchg/status/1594779272945627136?ref_src=twsrc%5Etfw">November 21, 2022</a></blockquote>
