@@ -1,11 +1,21 @@
-const Index = () => {
+import Footer from "../components/footer"
+import MetaTags from "../components/meta-tags"
+
+const Home = () => {
 
 	return (
 
-		<div>this is awesome</div>
+		<>
+			<MetaTags
+				title="How to NextJS"
+				description="How to NextJS"
+			/>
+			<div className="text-2xl">This is awesome!</div>
+			<Footer />
+		</>
 
 	)
 
 }
 
-export default Index
+export default Home
