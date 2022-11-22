@@ -22,7 +22,7 @@ const Home = () => {
 					<h2 className="text-sm md:text-xl text-indigo-50">Simply the most convient blog to start your NextJS career.</h2>
 				</div>
 				<Link href="https://twitter.com/howtonextjs" passHref target="_blank">
-					<div className="rounded-full bg-violet-100 px-5 py-2.5 mt-5 flex gap-2.5 items-center">
+					<div className="rounded-full bg-violet-100 px-5 py-2.5 mt-5 flex gap-2.5 items-center shadow-md">
 						<div className="h-4 w-4 relative">
 							<img src="/twitter.svg" alt="twitter_icon"/>
 						</div>
