@@ -26,7 +26,7 @@ const Home = () => {
 						<div className="h-4 w-4 relative">
 							<img src="/twitter.svg" alt="twitter_icon"/>
 						</div>
-						<p className="text-xs md:text-sm text-zinc-800">Have a question or a query? Ask me.</p>
+						<p className="text-xs md:text-sm text-zinc-800">Any questions? Ask me.</p>
 					</div>
 				</Link>
 			</div>
