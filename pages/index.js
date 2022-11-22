@@ -10,7 +10,7 @@ const Home = () => {
 		<>
 			<MetaTags
 				title="How to NextJS"
-				description="How to NextJS"
+				description="Start your NextJS journey today for free."
 			/>
 			<Script src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" />
 			<div className="container mx-auto py-5 px-5 md:px-0">
