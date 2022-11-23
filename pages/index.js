@@ -14,7 +14,7 @@ const Home = () => {
 				description="Start your NextJS journey today for free."
 			/>
 			<Script src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" />
-			<div className="p-5 md:p-0 h-screen bg-indigo-600 w-full items-center justify-center flex flex-col text-center">
+			<div className="p-5 md:p-0 h-[600px] md:h-screen bg-indigo-600 w-full items-center justify-center flex flex-col text-center">
 				<div className="">
 					<h1 className="text-3xl md:text-6xl text-indigo-50 font-semibold">How to NextJS</h1>
 				</div>
@@ -22,7 +22,7 @@ const Home = () => {
 					<h2 className="text-sm md:text-xl text-indigo-50">Simply the most convient blog to start your NextJS career.</h2>
 				</div>
 				<Link href="https://twitter.com/howtonextjs" passHref target="_blank">
-					<div className="rounded-full bg-violet-100 px-5 py-2.5 mt-5 flex gap-2.5 items-center shadow-md">
+					<div className="rounded-full bg-white px-5 py-2.5 mt-5 flex gap-2.5 items-center shadow-md shadow-indigo-700">
 						<div className="h-4 w-4 relative">
 							<img src="/twitter.svg" alt="twitter_icon"/>
 						</div>
