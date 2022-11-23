@@ -72,7 +72,7 @@ export const getServerSideProps = async ( context ) => {
 			props: {
                 
                 post,
-                project_id: process.env.SANITY_PROJECT_ID
+                project_id: "vwc4udx3"
             
             }
 
