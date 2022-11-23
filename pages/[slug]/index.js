@@ -1,6 +1,7 @@
 import sanity from "../../sanity"
 
 import Footer from "../../components/footer"
+import Header from "../../components/header"
 import MetaTags from "../../components/meta-tags"
 
 import { PortableText } from "@portabletext/react"
@@ -19,7 +20,6 @@ const Post = ( props ) => {
         slug,
 
 	} = props.post
-    console.log( slug )
     const builder = imageUrlBuilder({
 
 		baseUrl: "https://cdn.sanity.io",
@@ -45,12 +45,13 @@ const Post = ( props ) => {
                 image={ image_seo }
                 slug={ slug.current }
 			/>
-            <div className="container mx-auto max-w-3xl">
+            <Header/>
+            <div className="container mx-auto max-w-3xl py-10">
                 <h1 className="text-zinc-800 text-3xl font-semibold">{ title }</h1>
-                <div className="text-sm mt-2.5 text-zinc-600">
+                <div className="text-base mt-2.5 text-zinc-600">
                     <p>{ format(new Date( publish_time ),"MMMM do, yyyy") }</p>
                 </div>
-                <div className="mt-5 text-zinc-700">
+                <div className="mt-5 text-zinc-700 text-lg">
                     <PortableText value={ body }/>
                 </div>
             </div>
