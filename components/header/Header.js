@@ -5,7 +5,7 @@ const Header = () => {
     return (
 
         <div className="bg-indigo-600 py-5">
-            <div className="container mx-auto max-w-3xl">
+            <div className="container mx-auto max-w-3xl px-5 md:px-0">
                 <Link passHref href="/">
                     <p className="text-white font-bold text-2xl">How to NextJS</p>
                 </Link>
