@@ -4,7 +4,7 @@ const Header = () => {
 
         <div className="bg-indigo-600 py-5">
             <div className="container mx-auto max-w-3xl">
-                <p className="text-white font-bold text-2xl text-center">How to NextJS</p>
+                <p className="text-white font-bold text-2xl">How to NextJS</p>
             </div>
         </div>
 
