@@ -46,7 +46,7 @@ const Post = ( props ) => {
                 slug={ slug.current }
 			/>
             <Header/>
-            <div className="container mx-auto max-w-3xl py-10">
+            <div className="container mx-auto max-w-3xl py-5 md:py-10 px-5 md:px-0">
                 <h1 className="text-zinc-800 text-3xl font-semibold">{ title }</h1>
                 <div className="text-base mt-2.5 text-zinc-600">
                     <p>{ format(new Date( publish_time ),"MMMM do, yyyy") }</p>
